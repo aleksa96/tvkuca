@@ -1,0 +1,224 @@
+.text {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+#h1vesti {
+    color: #222222;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.login {
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login h1 {
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-family: Century Gothic;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+// .latest-news-area {
+//     margin-top:40px;
+// }
+
+.latest-news-wrap {
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+
+}
+
+.news-img {
+    position: relative;
+}
+
+.news-img::before {
+    position: absolute;
+    left:0;
+    top:0;
+    //width: 100%;
+    content: "";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all 0.5s;
+}
+.news-active  {
+    display: inline-block !important;
+} 
+
+small {
+    text-align: center;
+    //position: absolute;
+    font-size: 15px;
+    padding-bottom: 10px;
+} 
+
+.news-content {
+    padding: 20px;
+    height: 250px;
+    max-height: 250px;
+    position: relative;
+}
+
+.news-content span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.news-content p{
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-top:20px;
+}
+
+.news-content a {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.news-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5em;
+}
+
+.news-img img {
+    height: 250px;
+}
+
+.latest-news-wrap .news-img::before{
+    opacity: .5;
+    transform: scale(1);
+}
+
+.footer {
+    padding: 30px;
+    color: #212529;
+    background-color: #f8fafc;
+    border-top: solid 1px black;
+}
+
+.footer .social {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+.create-news {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.create-news h1 {
+    color: #222222;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.form-log-log {
+    height: 71vh;
+    padding-top: 120px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.post-show {
+    margin-bottom: 100px;
+}
+
+#main-navbar {
+    height: 60px;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+}
+
+#donutchart {
+    width: 100%;
+    height: 400px;
+}
+
+.movie {
+    padding-top: 50px;
+}
+
+.login {
+    padding-top: 120px !important;
+}
+
+.taxi {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.taxi h1 {
+    margin-top: 20px;
+}
+
+.taxi img {
+    width: 450px;
+    height: 300px;
+}
+
+.taxi:hover img {
+    transition: all 1s;
+    box-shadow: 3px 10px 36px -2px;
+    transform: scale(1.05,1.05);
+}
+
+.form-dashboard {
+    height: 71vh;
+    padding-top: 120px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.edit-news {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.edit-news h1 {
+    color: #222222;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 50px;
+    font-weight: 400;
+}
+.comment{
+
+    border-bottom: 1px solid;
+
+}
